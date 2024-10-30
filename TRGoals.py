@@ -84,5 +84,5 @@ class TRGoals:
             dosya.write(yeni_m3u_icerik)
 
 if __name__ == "__main__":
-    guncelleyici = TRGoals("trgl/KekikAkademi.m3u")
+    guncelleyici = TRGoals("hayda/trgl.m3u")
     guncelleyici.m3u_guncelle()
